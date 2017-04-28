@@ -1,0 +1,30 @@
+{
+  "name": "smart-player",
+  "version": "1.0.0",
+  "description": "Une application basique de creation de playist avec du machine learning",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron -r babel-register ."
+  },
+  "repository": "https://github.com/electron/electron-quick-start",
+  "keywords": [
+    "ENSAE",
+    "RECOMMENDATION",
+    "PROJET INFO",
+    "DATASCIENCE",
+    "MACHINE LEARNING"
+  ],
+  "author": "GitHub",
+  "license": "CC0-1.0",
+  "devDependencies": {
+    "electron": "~1.6.2",
+    "react-dropzone": "^3.13.0",
+    "react-easy-audio": "^0.2.3",
+    "react": "^15.0.1",
+    "react-dom": "^15.0.1",
+    "babel-preset-es2015": "^6.3.13",
+    "babel-preset-stage-0": "^6.3.13",
+    "babel-preset-react": "^6.3.13",
+    "babel-register": "^6.3.13"
+  }
+}
